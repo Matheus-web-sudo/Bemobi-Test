@@ -1,13 +1,14 @@
 fhand = open('Logs.txt')
 stand = []
-#contador de paises
+
+#country counter
 count_bra = 0
 count_chi = 0 
 count_mex = 0
 count_col = 0
 count_cuba = 0
 count_peru = 0
-#contador para assinados
+#signed counter
 bra_assi = 0
 chi_assi = 0
 mex_assi = 0

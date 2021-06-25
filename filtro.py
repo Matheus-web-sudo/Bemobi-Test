@@ -1,4 +1,4 @@
-fhand = open(input("Enter Filename: "), 'r')
+fhand = open(input("Enter Filename: "))
 stand = []
 
 #country counter

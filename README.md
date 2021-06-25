@@ -2,15 +2,7 @@
  <p id="Bemobi" align="center">
 📱 Tem como função analisar os logs que contém os registros de mudança de status dos usuários de um novo serviço   <!-- Um emoji e uma descrição -->
 
-<h2 align="center">  <img alt="Imagem do Projeto" id="imagem" title="#Projeto" src="https://github.com/Seu-perfil/repositorio/.github/Imagem.JPG" />  </h2>
 
-### Features 
-- [x] Feature 1
-- [x] Feature 2
-- [x] Feature 3
-
-
-<!-- Coloque o status do projeto -->
 <h4 align="left">  
 Projeto finalizado ✔
 </h4>
@@ -26,7 +18,6 @@ Tabela de conteúdos
  *  * [Autor](#autor)
  <!--te-->
  
- <!-- Altere os Pré-requisitos -->
 
 ### 🛒 Pré-requisitos<a id="pre-requisitos"></a>
 
@@ -39,10 +30,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
    
 ````bash 
  # Clone este repositório
- git clone https://github.com/Seu-perfil/repositorio
+ git clone https://github.com/Matheus-web-sudo/Bemobi-Test
  
  # Acesse a pasta do projeto no terminal
- cd pasta
+ cd Bemobi-Test
  
  # Execute a aplicação em modo de desenvolvimento
  $ python filtro.py
@@ -53,21 +44,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
   - [Python]
 
 
-Para ter acesso a URL da sua foto o Github:
 
-1- Vá até seu perfil
+Feito com ❤️ por Matheus de Moura Camargo 👋 Entre em contato! 
 
-2- Em cima da sua foto clique com o botão direito e selecione a opção copiar endereço da imagem
-
-3- Cole o endereço em src no código abaixo
-
-
-### 👨‍💻Autor <a id="autor"> </a>
-
----
-<a href="https://github.com/Seu-perfil" style="text-decoration: none;">
-<img style="border-radius: 50%;" src="URL da sua foto no Github" width="100px;"  alt="Seu nome"/>
-
-<br />
-<span> Feito com ❤️ por Matheus de Moura Camargo 👋 Entre em contato! </span> 
-</a> 

@@ -1,4 +1,4 @@
-fhand = open('Logs.txt')
+fhand = open(input("Enter Filename: "), 'r')
 stand = []
 
 #country counter
@@ -66,5 +66,7 @@ insert.write('\n')
 insert.write(str(('Côlombia', count_col, col_assi)))
 insert.write('\n')
 insert.write(str(('Cuba', count_cuba, cuba_assi)))
+
+
 
 

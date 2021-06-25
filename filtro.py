@@ -23,8 +23,7 @@ for line in fhand:
     if line == '\n':
         continue
     else :
-        stand.append(line)
-print(stand)       
+        stand.append(line)   
 
 for column in stand: 
     if column[0:2] == '55':
@@ -55,10 +54,16 @@ for column in stand:
         col_assi = col_assi + 1
 
 
+teste  = open('saida.txt', 'w')
+teste.write(str(('Peru', count_peru, peru_assi)))
+teste.write('\n')
+teste.write(str(('Chile', count_chi, chi_assi)))
+teste.write('\n')
+teste.write(str(('Brasil', count_bra, bra_assi)))
+teste.write('\n')
+teste.write(str(('México', count_mex, mex_assi)))
+teste.write('\n')
+teste.write(str(('Côlombia', count_col, col_assi)))
+teste.write('\n')
+teste.write(str(('Cuba', count_cuba, cuba_assi)))
 
-print('Peru', ',', count_peru, ',', peru_assi)
-print('Chile', ',', count_chi, ',', chi_assi)
-print('Brasil', ',', count_bra, ',', bra_assi)
-print('México', ',', count_mex, ',', mex_assi)
-print('Côlombia',',', count_col, ',', col_assi)
-print('Cuba', ',', count_cuba, ',', cuba_assi)

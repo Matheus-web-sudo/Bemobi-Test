@@ -54,16 +54,17 @@ for column in stand:
         col_assi = col_assi + 1
 
 
-teste  = open('saida.txt', 'w')
-teste.write(str(('Peru', count_peru, peru_assi)))
-teste.write('\n')
-teste.write(str(('Chile', count_chi, chi_assi)))
-teste.write('\n')
-teste.write(str(('Brasil', count_bra, bra_assi)))
-teste.write('\n')
-teste.write(str(('México', count_mex, mex_assi)))
-teste.write('\n')
-teste.write(str(('Côlombia', count_col, col_assi)))
-teste.write('\n')
-teste.write(str(('Cuba', count_cuba, cuba_assi)))
+insert  = open('saida.txt', 'w')
+insert.write(str(('Peru', count_peru, peru_assi)))
+insert.write('\n')
+insert.write(str(('Chile', count_chi, chi_assi)))
+insert.write('\n')
+insert.write(str(('Brasil', count_bra, bra_assi)))
+insert.write('\n')
+insert.write(str(('México', count_mex, mex_assi)))
+insert.write('\n')
+insert.write(str(('Côlombia', count_col, col_assi)))
+insert.write('\n')
+insert.write(str(('Cuba', count_cuba, cuba_assi)))
+
 
